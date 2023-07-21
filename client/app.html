@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dragon real estate</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+<form class="form">
+<!--"CRIM", "ZN", "INDUS", "CHAS", "NOX", "RM", "AGE", "DIS", "RAD", "TAX", "PTRATIO", "B", "LSTAT"-->
+
+	<h2>CRIM</h2>
+    <input class="area"  type="text" id="uiCRIM" class="floatLabel" name="Squareft" value="">
+
+	<h2>ZN</h2>
+    <input class="area"  type="text" id="uiZN" class="floatLabel" name="Squareft" value="">
+
+	<h2>INDUS</h2>
+    <input class="area"  type="text" id="uiINDUS" class="floatLabel" name="Squareft" value="">
+
+	<h2>CHAS</h2>
+    <input class="area"  type="text" id="uiCHAS" class="floatLabel" name="Squareft" value="">
+	<h2>NOX</h2>
+    <input class="area"  type="text" id="uiNOX" class="floatLabel" name="Squareft" value="">
+	<h2>RM</h2>
+    <input class="area"  type="text" id="uiRM" class="floatLabel" name="Squareft" value="">
+	<h2>AGE</h2>
+    <input class="area"  type="text" id="uiAGE" class="floatLabel" name="Squareft" value="">
+	<h2>DIS</h2>
+    <input class="area"  type="text" id="uiDIS" class="floatLabel" name="Squareft" value="">
+	<h2>RAD</h2>
+    <input class="area"  type="text" id="uiRAD" class="floatLabel" name="Squareft" value="">
+	<h2>TAX</h2>
+    <input class="area"  type="text" id="uiTAX" class="floatLabel" name="Squareft" value="">
+	<h2>PTRATIO</h2>
+    <input class="area"  type="text" id="uiPTRATIO" class="floatLabel" name="Squareft" value="">
+	<h2>B</h2>
+    <input class="area"  type="text" id="uiB" class="floatLabel" name="Squareft" value="">
+	<h2>LSTAT</h2>
+    <input class="area"  type="text" id="uiLSTAT" class="floatLabel" name="Squareft" value="">
+	</form>
+<form class="form">
+	<button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+	<div id="uiEstimatedPrice" class="result">	<h2></h2> </div>
+</form>
+</body>
+</html>
