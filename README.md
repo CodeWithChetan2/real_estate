@@ -1,7 +1,3 @@
-Certainly! Here's a project description for your "Real Estate" project:
-
----
-
 # Real Estate Website
 
 ## Overview
